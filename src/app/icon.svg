@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="#1f72bf" viewBox="0 0 100 100">
+    <!-- TODO: make a nicer icon -->
+    <path d="M 0 100 L 0 0 L 10 0 L 10 45 L 30 45 L 30 0 L 40 0 L 40 100 L 30 100 L 30 55 L 10 55 L 10 100 L 0 100 z" />
+    <path d="M 100 0 A 1 1 1 0 0 100 100 L 100 95 A 1 1 1 0 1 100 5 L 100 0 z" />
+</svg>

@@ -1,0 +1,26 @@
+{
+  "name": "hue-clock",
+  "description": "A nice analog clock, colored hue based.",
+  "author": "Johanna Herrmann (johanna-herrmann)",
+  "version": "0.1.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johanna-herrmann/hue-clock.git"
+  },
+  "scripts": {
+    "serve": "next dev",
+    "build": "next build",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.2.4"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4"
+  },
+  "license": "MIT"
+}
