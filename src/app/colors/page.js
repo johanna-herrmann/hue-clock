@@ -1,5 +1,5 @@
 
-export default function Why() {
+export default function ColorsPage () {
   // TODO: explain why this colors
   return (
     <main>

@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Tabbing from "@/components/Tabbing"
+import Tabbing from "@/components/navigation/Tabbing"
 
 const inter = Inter({ subsets: ["latin"] });
 

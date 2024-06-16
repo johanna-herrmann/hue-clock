@@ -1,0 +1,7 @@
+main {
+    position: fixed;
+    top: 30px;
+    width: 100%;
+    height: calc(100% - 30px);
+    background-color: hsl(224, 76%, 10%);
+}

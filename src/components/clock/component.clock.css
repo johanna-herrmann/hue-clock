@@ -1,0 +1,43 @@
+#clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(224, 76%, 4%);
+    border-radius: 50%;
+}
+
+#clock .number {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    text-shadow: 2px 2px 10px hsl(224, 76%, 50%);
+}
+
+#clock .bar-wrapper {
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+#clock .bar-wrapper .bar {
+    box-shadow: 2px 2px 10px hsl(224, 76%, 50%);
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 100%;
+}
+
+#clock .hand {
+    position: absolute;
+    transition: transform 0.1s cubic-bezier(0,1.58,.25,.91);
+}
+
+#clock .axis {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 50%;
+}
