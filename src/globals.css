@@ -2,6 +2,7 @@ html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 header {
@@ -13,7 +14,7 @@ header {
   background-color: hsl(224, 76%, 20%);
 }
 
-header a {
+header button {
   display: inline-block;
   width: calc(100% / 2 - 2px);
   height: 30px;
@@ -22,16 +23,20 @@ header a {
   color: white;
   text-decoration: none;
   text-align: center;
+  cursor: pointer;
+  border: none;
+  font-size: 1em;
+  padding: 0;
 }
 
-header a.current {
+header button.current {
   background-color: hsl(224, 76%, 45%);
   font-weight: bolder;
 }
 
-header a span {
+header button span {
   display: inline-block;
-  position: relative;
+  position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }

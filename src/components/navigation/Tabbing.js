@@ -3,8 +3,8 @@
 import Tab from "./Tab";
 
 const TABBING = {
-  Clock: '/clock',
-  Colors: '/colors'
+  Clock: 'clock',
+  Colors: 'colors'
 };
 
 export default function Tabbing ({ updateView, view }) {
