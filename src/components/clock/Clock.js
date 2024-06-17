@@ -1,4 +1,5 @@
 import "./component.clock.css";
+import Face from "./Face";
 import Bars from "./Bars";
 import Numbers from "./Numbers";
 import Hand from "./Hand";
@@ -19,20 +20,17 @@ export default function Clock () {
     });
   }
   setInterval(updateTime, 100);
-  const style = {
-    width: `${size}px`,
-    height: `${size}px`
-  };
   return (
     <div id="clock-container">
-      <div id="clock" style={style}>
-        <Bars size={size} time={timeState.time} />
-        <Numbers size={size} time={timeState.time} />
-        <Hand size={size} time={timeState.time} type="hour" />
-        <Hand size={size} time={timeState.time} type="minute" />
-        <Hand size={size} time={timeState.time} type="second" />
-        <Axis size={size} />
-      </div>
+      <svg id="clock" width={size} height={size} viewBox="0 0 913 913">
+        <Face />
+        <Bars time={timeState.time} />
+        <Numbers time={timeState.time} />
+        <Hand time={timeState.time} type="hour" />
+        <Hand time={timeState.time} type="minute" />
+        <Hand time={timeState.time} type="second" />
+        <Axis />
+      </svg>
     </div>
   );
 }

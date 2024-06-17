@@ -1,9 +1,9 @@
 import Number from "./Number";
 
-export default function Numbers ({ size, time }) {
+export default function Numbers ({ time }) {
   const numbers = [];
   for (let number = 1; number <= 12; number++) {
-    numbers.push(<Number number={number} size={size} time={time} key={number} />);
+    numbers.push(<Number number={number} time={time} key={number} />);
   }
   return (
     <>

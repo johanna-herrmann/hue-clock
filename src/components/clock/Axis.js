@@ -1,10 +1,3 @@
-export default function Axis ({ size }) {
-  const axisSize = 30 / 800 * size;
-  const style = {
-    width: `${axisSize}px`,
-    height: `${axisSize}px`
-  };
-  return (
-    <div className="axis" style={style}></div>
-  );
+export default function Axis () {
+  return <circle cx="456.5" cy="456.5" r="15" fill="black" />
 }

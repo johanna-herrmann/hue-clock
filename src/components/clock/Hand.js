@@ -9,28 +9,17 @@ function calculateDegree (time, type) {
   }
 }
 
-const scales = {
-  second: 1.0,
-  minute: 0.9,
-  hour: 0.8
+const paths = {
+  second: 'M 456.5 487   l 2 0   l 2 -30   l 0 -14     l -2 -380   l -1   -25   l -2 0   l -1   25   l -2 380   l 0 14   l 2 30   l 2 0   z',
+  minute: 'M 456.5 487   l 4 0   l 4 -30   l 0 -14     l -4 -380   l -2   -25   l -4 0   l -2   25   l -4 380   l 0 14   l 4 30   l 4 0   z',
+  hour:   'M 456.5 487   l 4 0   l 4 -30   l 0 -14     l -4 -306   l -2   -25   l -4 0   l -2   25   l -4 306   l 0 14   l 4 30   l 4 0   z'
 }
 
-export default function Hand ({ time, size, type }) {
+export default function Hand ({ time, type }) {
   const degree = calculateDegree(time, type);
   const ligthness = time.getHours() < 12 ? 75 : 50;
-  const width = 8 / 800 * size;
-  const height = size / 2 - 100 / 800 * size;
-  const offset = 20 / 800 * size;
-  const style = {
-    width: `${width}px`,
-    height: `${height}px`,
-    background: `hsl(${degree}, 100%, ${ligthness}%)`,
-    bottom: `calc(50% - ${offset}px)`,
-    left: `calc(50% - ${width / 2}px)`,
-    transform: `rotate(${degree}deg) scale(${scales[type]})`,
-    transformOrigin: `${width / 2}px ${height - offset}px`
-  }
-  return (
-    <div className={`hand ${type}`} style={style}></div>
-  );
+  const color = `hsl(${degree}, 100%, ${ligthness}%)`;
+  const path = paths[type];
+  const transform = `rotate(${degree} 456.1 456.1)`;
+  return <path d={path} fill={color} transform={`${transform}`} stroke={`hsl(224, 76%, 0%)`} />
 }
