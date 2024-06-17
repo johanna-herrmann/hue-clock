@@ -1,9 +1,7 @@
-import Link from 'next/link';
-
-export default function Tab ({ title, slug, current }) {
+export default function Tab ({ title, slug, current, updateView }) {
   return (
-    <Link href={slug} className={current === slug ? 'current' : ''}>
+    <a href="javascript:void(0);" className={current === slug ? 'current' : ''} onClick={() => updateView(slug)}>
       <span>{title}</span>
-    </Link>
+    </a>
   );
 }

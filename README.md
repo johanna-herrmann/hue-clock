@@ -7,6 +7,8 @@ Colors of hands, numbers and bars are based on hue-color-wheel, so
 * 6 is aqua-marin
 * and so on
 
+Am and pm is indicated by pure (pm) or milky (am) colors.
+
 ## Development
 
 ### Setup

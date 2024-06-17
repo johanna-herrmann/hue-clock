@@ -1,6 +1,5 @@
 "use client";
 
-import { usePathname } from "next/navigation";
 import Tab from "./Tab";
 
 const TABBING = {
@@ -8,11 +7,10 @@ const TABBING = {
   Colors: '/colors'
 };
 
-export default function Tabbing () {
-  const current = usePathname();
+export default function Tabbing ({ updateView, view }) {
   const tabs = [];
   for (const [title, slug] of Object.entries(TABBING)) {
-    tabs.push(<Tab title={title} slug={slug} current={current} key={slug} />);
+    tabs.push(<Tab title={title} slug={slug} current={view.current} updateView={updateView} key={slug} />);
   }
 
   return (
