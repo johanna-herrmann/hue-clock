@@ -39,7 +39,6 @@
 
 #clock .hand {
     position: absolute;
-    transition: transform 0.1s cubic-bezier(0,1.58,.25,.91);
 }
 
 #clock .axis {
