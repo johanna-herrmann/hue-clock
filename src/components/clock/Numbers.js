@@ -1,4 +1,4 @@
-import Number from "./Number";
+import Number from './Number';
 
 export default function Numbers ({ time }) {
   const numbers = [];

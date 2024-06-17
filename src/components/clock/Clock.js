@@ -1,9 +1,9 @@
-import "./component.clock.css";
-import Face from "./Face";
-import Bars from "./Bars";
-import Numbers from "./Numbers";
-import Hand from "./Hand";
-import Axis from "./Axis";
+import './component.clock.css';
+import Face from './Face';
+import Bars from './Bars';
+import Numbers from './Numbers';
+import Hand from './Hand';
+import Axis from './Axis';
 import { useState } from 'react';
 
 const HEADER = 30;

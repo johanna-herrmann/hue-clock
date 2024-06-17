@@ -1,4 +1,4 @@
-import Bar from "./Bar";
+import Bar from './Bar';
 
 export default function Bars ({ time }) {
   const bars = [];

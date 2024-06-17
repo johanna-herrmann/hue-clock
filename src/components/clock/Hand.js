@@ -1,8 +1,8 @@
 function calculateDegree (time, type) {
   switch (type) {
-    case "second": return time.getSeconds() / 60 * 360;
-    case "minute": return 6.0 * (time.getMinutes() + time.getSeconds() / 60.0);
-    case "hour":
+    case 'second': return time.getSeconds() / 60 * 360;
+    case 'minute': return 6.0 * (time.getMinutes() + time.getSeconds() / 60.0);
+    case 'hour':
     default:
       const hours = (time.getHours() % 12) || 12;
       return 30.0 * (hours + time.getMinutes() / 60.0);
