@@ -1,6 +1,10 @@
 # hue-clock
 
+<img src="./public/img/clock.png" alt="example" width="200"/>
+
 A nice analog clock, colored hue based.
+
+## Colors
 
 Colors of hands, numbers and bars are based on hue-color-wheel, so
 * 12 is red
@@ -18,9 +22,6 @@ Run `npm install`
 * Run `npm run serve`
 * Open browser at `localhost:3000`
 * Now you can see the app, changes will trigger auto-reload.
-
-### Linting
-Run `npm run lint`
 
 ### Build
 Run `npm run build`
