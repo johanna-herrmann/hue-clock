@@ -52,10 +52,8 @@ export default function Colors () {
 
       <div className="paragraph">
         A few words about the color theme on this page.<br />
-        All theme-colors have 224° hue and 100% saturation.
-        The only difference is the lightness, varying between 10% and 95%.<br />
-        Put short: All colors are the same, just with different brightnesses,
-        which is one of various methods to reach a unified and beautiful design.
+        All theme-colors have 224° hue with various saturation and lightness values.<br />
+        This is one of various methods to reach a unified design.
       </div>
     </main>
   );
