@@ -1,7 +1,11 @@
 main {
-    color: #ccc;
-    padding: 15px 10px 10px 10px;
+    color: hsl(224, 100%, 90%);
+    padding: 15px 10px;
     line-height: 1.2;
+}
+
+div.paragraph {
+    margin-bottom: 20px;
 }
 
 img {
