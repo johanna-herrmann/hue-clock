@@ -1,10 +1,7 @@
 import './module.colors.css';
 
 export default function Colors () {
-  const background = 'black';
-  const backgroundInverted = 'white';
   const backgroundImage = 'linear-gradient(to right, hsl(0, 0%, 10%) , hsl(0, 0%, 90%))';
-  const backgroundImageInverted = 'linear-gradient(to right, hsl(0, 0%, 90%) , hsl(0, 0%, 10%))';
   return (
     <main>
       <h2>Why this colors?</h2>

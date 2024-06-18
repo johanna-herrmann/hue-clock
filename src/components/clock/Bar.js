@@ -1,5 +1,5 @@
 export default function Bar ({ number, time }) {
-  const degree = (number / 60 * 360) % 360;
+  const degree = (number / 60 * 360);
   const ligthness = time.getHours() < 12 ? 75 : 50;
   const color = `hsl(${degree}, 100%, ${ligthness}%)`;
   const barLength = (number % 5) === 0 ? 28.5 : 17.1;

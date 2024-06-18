@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-import Tab from "./Tab";
+import Tab from './Tab';
 
 const TABBING = {
   Clock: 'clock',

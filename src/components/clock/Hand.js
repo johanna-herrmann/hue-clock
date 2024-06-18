@@ -21,5 +21,5 @@ export default function Hand ({ time, type }) {
   const color = `hsl(${degree}, 100%, ${ligthness}%)`;
   const path = paths[type];
   const transform = `rotate(${degree} 456.1 456.1)`;
-  return <path d={path} fill={color} transform={`${transform}`} stroke={`hsl(224, 76%, 0%)`} />
+  return <path d={path} fill={color} transform={`${transform}`} stroke="black" />
 }

@@ -14,5 +14,5 @@
 }
 
 #clock path, #clock text {
-    filter: drop-shadow(2px 2px 10px black); /*hsl(224, 76%, 50%));*/
+    filter: drop-shadow(2px 2px 10px black);
 }
