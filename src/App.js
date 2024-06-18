@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Tabbing from './components/navigation/Tabbing';
 import View from './components/View';
+import SourceCoceLink from './components/SourceCodeLink';
 
 function getCurrent () {
   const current = location.hash.substring(1);
@@ -24,6 +25,7 @@ export default function App () {
     <main>
       <Tabbing updateView={updateView} view={viewState}></Tabbing>
       <View viewState={viewState} />
+      <SourceCoceLink />
     </main>
   );
 }
