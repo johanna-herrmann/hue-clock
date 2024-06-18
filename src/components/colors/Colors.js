@@ -49,7 +49,17 @@ export default function Colors () {
         pm &minus; <span style={{ color: 'hsl(0, 100%, 50%)' }}>pure</span> <span style={{ color: 'hsl(240, 100%, 50%)' }}>colors</span> (50% lightness)
       </div>
 
-      <div className="paragraph">The saturation is always set to 100%.</div>
+      <div className="paragraph">
+        The saturation is always set to 100%.
+      </div>
+
+      <div className="paragraph">
+        A few words about the color theme on this page.<br />
+        All theme-colors have 224° hue and 100% saturation.
+        The only difference is the lightness, varying between 10% and 95%.<br />
+        Put short: All colors are the same, just with different brightnesses,
+        which is one of various methods to reach a unified and beautiful design.
+      </div>
     </main>
   );
 }

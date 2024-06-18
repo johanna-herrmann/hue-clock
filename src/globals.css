@@ -21,7 +21,7 @@ header button {
   height: 30px;
   margin: 0 1px;
   background-color: hsl(224, 76%, 37%);
-  color: white;
+  color: hsl(224, 100%, 95%);
   text-decoration: none;
   text-align: center;
   cursor: pointer;
