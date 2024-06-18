@@ -43,8 +43,8 @@ Pushes to these branches will trigger build and deployment automatically.
 * `main` branch for https://hue-clock.johanna-herrmann.de/
 
 Recommended additional settings:
-* Rewrite `/` to `/clock`
-* 404 Redirect all not found to `/clock`
+* Rewrite `/index.html` to `/`
+* 404 Redirect all not found to `/`
 
 
 ## License
