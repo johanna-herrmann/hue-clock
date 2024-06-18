@@ -2,7 +2,8 @@
 
 <img src="./public/img/clock.png" alt="example" width="200"/>
 
-A nice analog clock, colored hue based.
+A nice analog clock, colored hue based, \
+powered by [react](https://react.dev/).
 
 ## Colors
 
