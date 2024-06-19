@@ -18,7 +18,6 @@ export default function View ({ viewState }) {
     time: new Date()
   });
   function updateTime () {
-    console.log('run');
     setTimeState({
       time: new Date()
     });
