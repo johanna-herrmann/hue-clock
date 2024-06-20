@@ -23,7 +23,7 @@ export default function Clock () {
 
   const size = Math.min(window.innerWidth - PADDING, window.innerHeight - PADDING - HEADER);
   return (
-    <main class="clock">
+    <main className="clock">
       <svg id="clock" width={size} height={size} viewBox="0 0 913 913">
         <Face />
         <Bars time={currentTime} />
