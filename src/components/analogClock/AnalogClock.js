@@ -9,7 +9,7 @@ import { useState, useEffect } from 'react';
 const HEADER = 30;
 const PADDING = 20;
 
-export default function Clock () {
+export default function AnalogClock () {
   const [currentTime, setCurrentTime] = useState(new Date());
   useEffect(() => {
     const timer = setInterval(() => {

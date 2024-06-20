@@ -5,10 +5,10 @@ import SourceCoceLink from './components/SourceCodeLink';
 
 function getCurrent () {
   const current = location.hash.substring(1);
-  if (current === 'colors') {
-    return 'colors';
+  if (current && ['analog', 'digital', 'colors'].includes(current)) {
+    return current;
   }
-  return 'clock';
+  return 'analog';
 }
 
 export default function App () {
