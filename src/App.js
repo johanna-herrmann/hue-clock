@@ -22,10 +22,10 @@ export default function App () {
     location.replace(`#${current}`);
   };
   return (
-    <main>
+    <>
       <Tabbing updateView={updateView} view={viewState}></Tabbing>
       <View viewState={viewState} />
       <SourceCoceLink />
-    </main>
+    </>
   );
 }

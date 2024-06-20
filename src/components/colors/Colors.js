@@ -3,7 +3,7 @@ import './module.colors.css';
 export default function Colors () {
   const backgroundImage = 'linear-gradient(to right, hsl(0, 0%, 10%) , hsl(0, 0%, 90%))';
   return (
-    <main>
+    <main class="colors">
       <h2>Why this colors?</h2>
 
       The shortest answer is: Color Wheel.

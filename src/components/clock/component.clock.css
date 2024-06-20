@@ -1,4 +1,4 @@
-#clock-container {
+main.clock {
     position: fixed;
     top: 30px;
     left: 0;
