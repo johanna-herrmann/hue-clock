@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import Number from './Number';
 import Colon from './Colon';
+import './component.digitalClock.css'
 
-const PADDING = 20;
 const SVG_WIDTH_UNITS = 350;
 const SVG_HEIGHT_UNITS = 83;
 
@@ -18,11 +18,9 @@ export default function DigitalClock () {
     };
   }, []);
 
-  const width = window.innerWidth - PADDING;
-  const height = SVG_HEIGHT_UNITS / SVG_WIDTH_UNITS * width;
   return (
     <main className="clock">
-      <svg id="clock" width={width} height={height} viewBox={`0 0 ${SVG_WIDTH_UNITS} ${SVG_HEIGHT_UNITS}`}>
+      <svg id="clock" class="digital" viewBox="0 0 350 83">
         <Number time={currentTime} type="hour" />
         <Colon offset={106.5} />
         <Number time={currentTime} type="minute" />

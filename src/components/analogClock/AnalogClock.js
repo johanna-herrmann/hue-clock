@@ -1,4 +1,4 @@
-import './component.clock.css';
+import './component.analogClock.css';
 import Face from './Face';
 import Bars from './Bars';
 import Numbers from './Numbers';
