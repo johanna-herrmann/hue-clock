@@ -5,10 +5,10 @@ import SourceCoceLink from './components/SourceCodeLink';
 
 function getCurrent () {
   const current = location.hash.substring(1);
-  if (current === 'colors') {
-    return 'colors';
+  if (current && ['analog', 'digital', 'colors'].includes(current)) {
+    return current;
   }
-  return 'clock';
+  return 'analog';
 }
 
 export default function App () {
@@ -22,10 +22,10 @@ export default function App () {
     location.replace(`#${current}`);
   };
   return (
-    <main>
+    <>
       <Tabbing updateView={updateView} view={viewState}></Tabbing>
       <View viewState={viewState} />
       <SourceCoceLink />
-    </main>
+    </>
   );
 }

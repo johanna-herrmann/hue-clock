@@ -3,7 +3,7 @@ import './module.colors.css';
 export default function Colors () {
   const backgroundImage = 'linear-gradient(to right, hsl(0, 0%, 10%) , hsl(0, 0%, 90%))';
   return (
-    <main>
+    <main className="colors">
       <h2>Why this colors?</h2>
 
       The shortest answer is: Color Wheel.
@@ -35,7 +35,7 @@ export default function Colors () {
       <div className="paragraph">
         Here is an animation, showing the relation between the clock and the color wheel.<br />
         <div id="animation">
-          <img src="img/clock.png" />
+          <img src="img/analog-clock.png" />
           <img id="wheel" src="img/wheel.png" />
         </div>
       </div>
