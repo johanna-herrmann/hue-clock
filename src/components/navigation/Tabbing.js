@@ -1,9 +1,9 @@
-'use client';
-
+import './component.tabbing.css';
 import Tab from './Tab';
 
 const TABBING = {
-  Clock: 'clock',
+  Analog: 'analog',
+  Digital: 'digital',
   Colors: 'colors'
 };
 
