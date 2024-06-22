@@ -47,6 +47,8 @@ Recommended additional settings:
 * Rewrite `/index.html` to `/`
 * 404 Redirect all not found to `/`
 
+## Version
+1.0.0 (2024-06-22)
 
 ## License
 This app and it's source code is [MIT Licensed](./LICENSE.md)
