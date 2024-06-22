@@ -48,7 +48,7 @@ Recommended additional settings:
 * 404 Redirect all not found to `/`
 
 ## Version
-1.0.1 (2024-06-22)
+1.0.2 (2024-06-22)
 
 ## License
 This app and it's source code is [MIT Licensed](./LICENSE.md)
