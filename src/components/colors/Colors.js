@@ -35,7 +35,7 @@ export default function Colors () {
       <div className="paragraph">
         Here is an animation, showing the relation between the clock and the color wheel.<br />
         <div id="animation">
-          <img src="img/clock.png" />
+          <img src="img/analog-clock.png" />
           <img id="wheel" src="img/wheel.png" />
         </div>
       </div>

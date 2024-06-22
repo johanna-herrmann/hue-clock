@@ -1,6 +1,7 @@
 # hue-clock
 
-<img src="./public/img/clock.png" alt="example" width="200"/>
+<img src="./public/img/analog-clock.png" alt="" width="200"/>
+<img src="./digital-clock.png" alt="" width="200"/>
 
 A nice analog clock, colored hue based, \
 powered by [react](https://react.dev/).
