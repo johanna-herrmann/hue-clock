@@ -15,7 +15,6 @@ header button {
     background-color: hsl(224, 76%, 37%);
     color: hsl(224, 100%, 95%);
     text-decoration: none;
-    text-align: center;
     cursor: pointer;
     border: none;
     font-size: 1em;
@@ -31,5 +30,5 @@ header button span {
     display: inline-block;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translate(-50%, -50%);
 }
