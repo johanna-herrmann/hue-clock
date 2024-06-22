@@ -1,6 +1,6 @@
 {
   "name": "hue-clock",
-  "description": "A nice analog clock, colored based on color-wheel.",
+  "description": "A nice clock, colored based on color-wheel.",
   "author": "Johanna Herrmann (johanna-herrmann)",
   "version": "1.0.2",
   "private": true,
