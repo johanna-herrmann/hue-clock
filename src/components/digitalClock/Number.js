@@ -29,9 +29,9 @@ const segmentPositionOffsets = [
 ]
 
 const positions = {
-  hour: [0, 0],
-  minute: [128, 0],
-  second: [254, 0]
+  hour: [10, 10],
+  minute: [138, 10],
+  second: [264, 10]
 }
 
 const secondDigitOffset = 50;

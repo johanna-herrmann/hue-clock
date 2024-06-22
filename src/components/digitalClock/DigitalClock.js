@@ -1,10 +1,8 @@
 import { useState, useEffect } from 'react';
+import Face from './Face';
 import Number from './Number';
 import Colon from './Colon';
 import './component.digitalClock.css'
-
-const SVG_WIDTH_UNITS = 350;
-const SVG_HEIGHT_UNITS = 83;
 
 export default function DigitalClock () {
   const [currentTime, setCurrentTime] = useState(new Date());
@@ -20,11 +18,12 @@ export default function DigitalClock () {
 
   return (
     <main className="clock">
-      <svg id="clock" class="digital" viewBox="0 0 350 83">
+      <svg id="clock" class="digital" viewBox="0 0 370 103">
+        <Face />
         <Number time={currentTime} type="hour" />
-        <Colon offset={106.5} />
+        <Colon offset={116.5} />
         <Number time={currentTime} type="minute" />
-        <Colon offset={233.5} />
+        <Colon offset={243.5} />
         <Number time={currentTime} type="second" />
       </svg>
     </main>

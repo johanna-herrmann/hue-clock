@@ -1,7 +1,7 @@
 const COLOR = 'hsl(224, 76%, 37%)';
 const DOT_SIZE = 10;
-const Y_1_OFFSET = 15;
-const Y_2_OFFSET = 55;
+const Y_1_OFFSET = 25;
+const Y_2_OFFSET = 65;
 
 export default function Colon ({ offset }) {
   return (
